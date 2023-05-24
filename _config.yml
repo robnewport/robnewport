@@ -69,7 +69,7 @@ exclude:
 # -------------------
 # Theme Config
 # --------------------
-title: "Jekyll Origin"
+title: "Robert Ahadizad Newport"
 
 category_dir: 'category'
 
@@ -77,10 +77,10 @@ analytics:
   google_analytics_id: ""
 
 disqus:
-  shortname: "zerostatic" # Your disqus shortcode. leave this blank to disable comments globally
+  shortname: "" # Your disqus shortcode. leave this blank to disable comments globally
 
-mailchimp:
-  form_action_url: https://zerostatic.us13.list-manage.com/subscribe/post?u=675276692aebec1c007f8156d&amp;id=3e3da720c2
+mailchimp: 
+  form_action_url: https://gmail.us10.list-manage.com/subscribe/post?u=553ae2d514d12505e23db428e&amp;id=541bdbcb5a&amp;f_id=005fe3e5f0
 
 contact_form: 
   use_netlify_form: true
@@ -124,7 +124,7 @@ fonts:
   logo: "Open Sans"
 
 logo:
-  logo_text: "Jekyll Origin"
+  logo_text: "Robert Ahadizad Newport"
   logo_image: assets/images/logo/logo.png
   logo_image_mobile: assets/images/logo/logo-mobile.png
   logo_image_invert: assets/images/logo/logo-invert.png
@@ -147,8 +147,8 @@ header:
 
 footer:
   enable_footer: true # show/hide the entire footer
-  footer_title: "Jekyll Origin"
-  footer_description: "Curate is a creative portfolio for Jekyll by Zerostatic Themes."
+  footer_title: "Robert Ahadizad newport"
+  footer_description: "Machine Learning Scientist and Software Developer."
   enable_social_media_icons: true
   enable_menu_footer_primary: true
   enable_menu_footer_secondary: true
@@ -160,6 +160,6 @@ footer:
 bottom:
   enable_bottom: false # show/hide the entire bottom (below the footer)
   enable_bottom_menu: true # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2021 Zerostatic Themes"
+  copyright_text: "© 2023 Robert Ahadizad Newport"
 
 
