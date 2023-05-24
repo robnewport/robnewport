@@ -1,16 +1,56 @@
-### Hi there 👋
+# Jekyll Origin Premium Theme
 
-<!--
-**robnewport/robnewport** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Jekyll Origin is a fully featured blog theme.
 
-Here are some ideas to get you started:
+### Documentation
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[Live Docs](https://www.zerostatic.io/docs/jekyll-origin)
+
+### Demo
+
+[Live Demo](https://jekyll-origin.netlify.app/)
+
+### Screenshot
+
+![Jekyll Origin Theme screenshot](https://www.zerostatic.io/theme/jekyll-origin/jekyll-origin-screenshot.png)
+
+## Install
+
+### Install Jekll
+
+Make sure you have Ruby & Jekyll installed - For a step-by-step guide, read Jekyll docs [installation](https://jekyllrb.com/docs/installation/)
+
+### Install Theme
+
+Extract the theme .zip file to your local computer. Navigate to the project root (it contains the README.md)
+
+Run `bundle install` to install gems.
+
+Then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
+
+To build the Jekyll site run `bundle exec jekyll build`
+
+## Deploy
+
+### Netlify
+
+This theme is pre-configured to deploy with [Netlify](https://docs.netlify.com/site-deploys/create-deploys/).
+
+> 💡 If you experience bundle install issues during the Netlify deployment, deleting the Gemfile.lock can sometimes help
+
+### GitHub Pages
+
+This theme works with GitHub Pages. If you are creating a GitHub Pages "Project site" then your site will be in a sub-folder ie `http://username.github.io/repository` You will need to update the `baseurl` in the `_config.yml` for the asset paths to work correctly.
+
+```yaml
+# _config.yml
+baseurl: "/my-repo-name" # This should be the name of your repo
+```
+
+## Credits
+
+This theme uses open-source libraries and assets.
+
+- **Bootstrap 5** https://unsplash.com/license
+- **Font Awesome 6 Free:** https://fontawesome.com/
+- **Unsplash Images** https://unsplash.com/
