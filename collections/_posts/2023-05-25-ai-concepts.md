@@ -4,9 +4,9 @@ title: "AI Concepts"
 date: 2023-05-25T05:22:42Z
 authors: ["Rob Newport"]
 categories: ["Machine Learning", "Software Development"]
-description: "AI concepts for developers."
-thumbnail: "/assets/images/gen/blog/cnn.jpg"
-image: "/assets/images/gen/blog/svm.jpg"
+description: "Introductory AI concepts for software developers."
+thumbnail: "/assets/images/gen/blog/cnn.webp"
+image: "/assets/images/gen/blog/svm.webp"
 ---
 
 The point of this guide is for the casual developer to get a cursory understanding of artificial intelligence concepts necessary to begin making applications that use various frameworks, libraries, or source code. Having straddled both the software engineering and academic research oriented sides of AI development, I understand how nuanced both approaches can be, especially when the mobile constraints of memory and performance are added to the mix.
