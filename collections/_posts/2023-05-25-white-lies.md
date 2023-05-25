@@ -19,10 +19,10 @@ These questions have persuaded me to assemble Top 3 statistics “white lies” 
 
 Consider the following claim by Company A and B: “Our software is on average able to increase productivity 90% of the time.”
 
-'''
+```
 Company A [97, 85, 77, 95, 94, 87, 88, 94, 97, 86]
 Company B [89, 89, 90, 90, 90, 92, 88, 89, 91, 92]
-'''
+```
 
 Without a standard deviation value, both Company A and B appear to have the same claim. However, with standard deviation, Company A is 90% ±6.5 whereas Company B is 90% ±1.3. This means that there is more confidence in Company B’s claim because the changes of each value from the average are lower. This can be seen in Company B’s results staying very close to 90 while Company A fluctuates wildly between a low point at 77 and a high of 97. Wild fluctuations may be due to problems in the test, which can be sneakily hidden through non-reporting of standard deviations. This is why showing your standard deviations whenever reporting an average can make your claims more defensible. If someone questions the average, you have an immediate measure of how confident it is by using the standard deviation.
 
@@ -30,10 +30,10 @@ Without a standard deviation value, both Company A and B appear to have the same
 
 One way a statistical test can be used is to present the hypothesis that there is no significant difference between two or more data groups. It does this is by measuring how far a particular distribution is from being normal. A simple way to understand this is to visualise a health attribute of everyone at your school or company, e.g., cholesterol. There will be a small handful of low and high cholesterol values, but most will fall within an average range. Now imagine we have developed medication that makes cholesterol go down. To test the efficacy of our medication, we ask 60 people to be a part of our test. Thirty of them take our cholesterol medication, and another 30 take a pill with something harmless and neutral in it. At the end of the trial, we again measure their cholesterol. The following results are found, in mg/dL:
 
-'''
+```
 Before [209 222 181 212 207 190 199 207 239 231]
 After [175 219 196 188 196 186 187 203 203 203]
-'''
+```
 
 To measure how well out experiment worked, we conduct a t-test to “reject the null hypothesis” — in other words, to reject that our new measurements are not significantly different to our original ones. This is where many experiments may misrepresent their findings. A p-value from a t-test can be artificially inflated if it is erroneously run as being paired. For example, in our cholesterol test, the paired t-test p-value is 0.0222, whereas the unpaired p-value is 0.0530. If this were a paired test, the results would indicate a solid rebuke of the null hypothesis. But if it were unpaired, there would be no finding of statistical difference. So what attribute does our experiment need to be paired? It needs to show a before and after state of the same participant, such that measurements taken in one state reflect the changes of the same attribute in its altered state. This requirement fits our particular cholesterol experiment, so we are entitled to use paired t-tests to measure statistical significance. A p-value which lacks an explicit description of the type of test used to make it diminishes trust in that value, and raises some questions about how it was made.
 
@@ -41,9 +41,9 @@ To measure how well out experiment worked, we conduct a t-test to “reject the 
 
 Sometimes data collection has “bugs” in the process where a mechanical failure, human error, or a software glitch records something that just doesn’t fit in with the rest of a set. This could manifest as something obvious like clipping, where all values are either max or min within a range, like a row of all zeros or Int(max). Other times, it could be values that don’t logically fit an experimental framework, like an active human heart rate of 0 bpm, or a new experiment with a date set to January 1, 1970. These are all clear examples of bad data that should be excluded. However, what if the data is not abnormal, but very different from other values in the data set? For example:
 
-'''
+```
 Set A: 3815, 7655, 7951, 1868, 4897, 4455, 6463, 7093, 7546, 12760
-'''
+```
 
 Let’s imaging these values represent monthly mortgages. The plain average of these values is $6450.30, which doesn’t truely represent the data because of the $12,760.00 mortgage on the end. However, do we just remove this value and pretend it was never there? Do we keep plugging it into statistical packages until we get a significance value that meets our preconceptions? No, this would be akin to lying, and is bad science. There are many methods to help identify outliers, e.g., H-spread, Tukey method, Dixon’s Q test, but a solid reason for the exclusion should be presented, other than the actual separation value itself. For example, we could use the interquartile range (IQR) to find that $12,760.00 is indeed an outlier, and then investigate that mortgage value to discover that it may be close to the boundary between our study area and an area nearby with significantly higher home values. Depending on our study details, this may warrant exclusion of the data based on a map boundary error that is not fully reaslised until after data collection. A footnote may be added, identifying the exclusion of the value, while maintaining the integrity of the data collected.
 
