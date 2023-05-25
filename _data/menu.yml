@@ -20,7 +20,7 @@ main:
         icon: "/assets/images/icons/wireframe-4.svg"
         icon_darkmode: "/assets/images/icons/wireframe-4-white.svg"
         description: "Default post layout"
-        url: /blog/2022-02-13-improving-page-speed/
+        url: /blog/2023-05-25-how-do-you-measure-extremism/
   - name: About
     url: /about/
     weight: 3
