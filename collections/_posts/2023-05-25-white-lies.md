@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Top 5 mistakes"
+title: "Top 3 stat mistakes"
 date: 2023-05-25T05:22:42Z
 authors: ["Rob Newport"]
 categories: ["Statistics", "Science"]
 description: "Top 3 statistics white lies and how you can avoid them."
-thumbnail: "/assets/images/gen/blog/native.jpg"
-image: "/assets/images/gen/blog/native.jpg"
+thumbnail: "/assets/images/gen/blog/stat1.jpg"
+image: "/assets/images/gen/blog/stat2.jpg"
 ---
 
 Research, as a deliverable, is increasingly finding its way into industry as big data becomes common place and executive decision-making requires more than just a gut feeling. But beyond looking at averages, medians, and variances, how do we know the statistics we look at aren’t lying to us?
