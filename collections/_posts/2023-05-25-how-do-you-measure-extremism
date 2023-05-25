@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "How do you measure extremism"
-date: 2023-05-25T00:00:00Z
+title: "How do you measure extremism?"
+date: 2023-05-25T05:22:42Z
 authors: ["Rob Newport", "Jade Hutchinson"]
-categories: ["Machine Learning", "Science", "Defence"]
+categories: ["Hosting", "Development"]
 description: "We often talk about rising rates of extremism. But how do we measure it, and can it be detected using machine learning?"
-thumbnail: ""
-image: ""
+thumbnail: "/assets/images/gen/blog/blog-1-thumbnail.webp"
+image: "/assets/images/gen/blog/blog-1.webp"
 ---
 
 Data scientists employ various methods and techniques to measure social behavior by leveraging the power of data analysis and statistical modeling. The field of social data science combines traditional social science methodologies with computational approaches to gain insights into human behavior at scale.
