@@ -16,7 +16,7 @@ paginate: 6
 paginate_path: "/blog/page/:num"
 
 pagination:
-  enabled: true
+  enabled: false
   debug: false
   collection: "posts"
   per_page: 6
@@ -83,7 +83,7 @@ mailchimp:
   form_action_url: https://gmail.us10.list-manage.com/subscribe/post?u=553ae2d514d12505e23db428e&amp;id=541bdbcb5a&amp;f_id=005fe3e5f0
 
 contact_form: 
-  use_netlify_form: true
+  use_netlify_form: false
   use_formspree_form: false
   formspree_endpoint: https://formspree.io/f/moqyklqv
 
