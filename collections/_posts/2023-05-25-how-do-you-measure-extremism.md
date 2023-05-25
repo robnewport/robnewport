@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "How do you measure extremism?"
+title: "How to measure extremism?"
 date: 2023-05-25T05:22:42Z
 authors: ["Rob Newport", "Jade Hutchinson"]
 categories: ["Hosting", "Development"]
-description: "We often talk about rising rates of extremism. But how do we measure it, and can it be detected using machine learning?"
+description: "How do we measure extremism and can it be detected."
 thumbnail: "/assets/images/gen/blog/blog-1-thumbnail.webp"
 image: "/assets/images/gen/blog/blog-1.webp"
 ---
