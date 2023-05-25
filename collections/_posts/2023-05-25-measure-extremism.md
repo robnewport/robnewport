@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Hosting Your Static Site"
-date: 2018-09-13T05:22:42Z
-authors: ["Sage Kirk", "Mike Vance"]
+title: "How to measure extremism?"
+date: 2023-05-25T05:22:42Z
+authors: ["Rob Newport", "Jade Hutchinson"]
 categories: ["Hosting", "Development"]
-description: "Hosting your website as a static site will improve performance and improve security."
+description: "How do we measure extremism and can it be detected."
 thumbnail: "/assets/images/gen/blog/blog-1-thumbnail.webp"
 image: "/assets/images/gen/blog/blog-1.webp"
 ---
@@ -36,4 +36,3 @@ Natural Language Processing (NLP) techniques are utilized by data scientists to 
 Machine learning and predictive modeling are powerful tools in analyzing social behavior. Data scientists leverage historical data to train models that can predict future behaviors or outcomes. Predictive models can be built to anticipate voting behavior, consumer preferences, or social trends. By utilizing large datasets and advanced modeling techniques, data scientists can identify patterns and make predictions about social behavior.
 
 It is crucial for data scientists to navigate ethical considerations and privacy concerns when working with social behavior data. Ensuring data privacy, obtaining informed consent, and maintaining confidentiality are essential aspects of conducting responsible research in this field. By adhering to ethical guidelines, data scientists can provide valuable insights into social behavior while respecting individual privacy and confidentiality.
-
