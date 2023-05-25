@@ -5,8 +5,8 @@ date: 2023-05-25T05:22:42Z
 authors: ["Rob Newport", "Jade Hutchinson"]
 categories: ["Defense", "Machine Learning"]
 description: "Measuring extremism for detection with Machine Learning."
-thumbnail: "blog-extremism-thumbnail.jpg"
-image: "blog-extremism-thumbnail.jpg"
+thumbnail: "extreme.webp"
+image: "extreme.webp"
 ---
 
 Data scientists employ various methods and techniques to measure social behavior by leveraging the power of data analysis and statistical modeling. The field of social data science combines traditional social science methodologies with computational approaches to gain insights into human behavior at scale.
