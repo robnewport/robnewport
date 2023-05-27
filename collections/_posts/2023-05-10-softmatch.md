@@ -5,8 +5,8 @@ date: 2023-05-15T05:22:42Z
 authors: ["Rob Newport"]
 categories: ["Eye Tracking", "Neuroscience"]
 description: "An innovative way to examine bottom-up sensory influencers."
-thumbnail: "/assets/images/gen/blog/eyegaze.jpg"
-image: "/assets/images/gen/blog/eyegaze.jpg"
+thumbnail: "/assets/images/gen/blog/eyeballs.jpg"
+image: "/assets/images/gen/blog/eyeballs.jpg"
 ---
 
 ### What is eye-tracking?
