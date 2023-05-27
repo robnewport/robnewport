@@ -25,6 +25,6 @@ This approach reduces the ability to discriminate between free viewing scanpaths
 
 These matching "sequences of fixations over time" are a loose acronym for SoftMatch. Results indicate high degrees of statistical and substantive significance when scoring matches between scanpaths made during free-form viewing of unfamiliar stimuli. Applications of this method can be used to better understand bottom up perceptual processes extending to scanpath outlier detection, expertise analysis, pathological screening, and salience prediction.
 
-To view a published paper on this topic, please see: 
+To view a published paper on this topic, please see:  
 __Newport RA, Russo C, Liu S, Suman AA, Di Ieva A.__ _SoftMatch: Comparing Scanpaths Using Combinatorial Spatio-Temporal Sequences with Fractal Curves._ Sensors (Basel). 2022 Sep 30;22(19):7438. doi: 10.3390/s22197438.
 [https://pubmed.ncbi.nlm.nih.gov/36236535/](https://pubmed.ncbi.nlm.nih.gov/36236535/)
