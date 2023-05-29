@@ -6,14 +6,13 @@ authors: ["Rob Newport"]
 categories: ["Machine Learning", "Software Development"]
 description: "Introductory AI concepts for software developers."
 thumbnail: "/assets/images/gen/blog/cnn.jpg"
-image: ""
 ---
-
-{% include framework/shortcodes/figure.html src="/assets/images/gen/blog/cnn.jpg" title="Figure 1. CNN" caption="Convolutional Neural Network." alt="CNN illustration" link="https://medium.com/codex/ai-concepts-for-developers-76b5a1a29fed" target="_blank" %}
 
 The point of this guide is for the casual developer to get a cursory understanding of artificial intelligence concepts necessary to begin making applications that use various frameworks, libraries, or source code. Having straddled both the software engineering and academic research oriented sides of AI development, I understand how nuanced both approaches can be, especially when the mobile constraints of memory and performance are added to the mix.
 
 The following are concepts should help you understand tutorials or documentation about SDKs and APIs related to AI a little better, without requiring any additional background reading.
+
+{% include framework/shortcodes/figure.html src="/assets/images/gen/blog/cnn.jpg" title="Figure 1. CNN" caption="Convolutional Neural Network." alt="CNN illustration" link="https://medium.com/codex/ai-concepts-for-developers-76b5a1a29fed" target="_blank" %}
 
 ### The difference between AI, Deep Learning, and Machine Learning
 
