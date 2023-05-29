@@ -23,6 +23,8 @@ Deep Learning, on the other hand, needs a lot of unique features, and more close
 
 Machine Learning can be used as a general term covering more specific Deep Learning algorithms, but is increasingly used to describe more traditional methods like SVM, kNN, and other low dimensional learning methods.
 
+{% include framework/shortcodes/figure.html src="/assets/images/gen/blog/svm.webp" title="SVM Margin" caption="Linear support vector decision boundary." alt="SVM illustration" link="https://medium.com/codex/ai-concepts-for-developers-76b5a1a29fed" target="_blank" %}
+
 ### What are _features_
 
 In Machine Learning, features are the many measured attributes of a thing being learned e.g., the leaf colour and size of a plant seen as the x and y axis of points in Figure 2, or the many input features seen as A in Figure 1. There could be many features or just a few, but as features increase, prediction with Machine Learning becomes more difficult. One way Deep Learning addresses this limitation is through Convolutional Neural Networks, where something like an image is layered into its various edges, colours, and other graphical perturbations. As a CNN observes and tracks these many different perturbations it learns the differences and similarities between images with the same names. This is distinctly different to a Machine Learning algorithm like Support Vector Machine seen in Figure 2, where smaller feature sets are statistically grouped into clusters separated by margin D. In Figure 2, the vectors touching hyperplane D are the support vectors defining the margin that classifies points on either side of it as group A or B.
