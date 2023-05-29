@@ -6,8 +6,10 @@ authors: ["Rob Newport"]
 categories: ["Machine Learning", "Software Development"]
 description: "Introductory AI concepts for software developers."
 thumbnail: "/assets/images/gen/blog/cnn.jpg"
-image: "/assets/images/gen/blog/cnn.jpg"
+image: ""
 ---
+
+{% include framework/shortcodes/figure.html src="/assets/images/gen/blog/cnn.jpg" title="Figure 1. CNN" caption="Convolutional Neural Network." alt="CNN illustration" link="https://medium.com/codex/ai-concepts-for-developers-76b5a1a29fed" target="_blank" %}
 
 The point of this guide is for the casual developer to get a cursory understanding of artificial intelligence concepts necessary to begin making applications that use various frameworks, libraries, or source code. Having straddled both the software engineering and academic research oriented sides of AI development, I understand how nuanced both approaches can be, especially when the mobile constraints of memory and performance are added to the mix.
 
@@ -23,7 +25,7 @@ Deep Learning, on the other hand, needs a lot of unique features, and more close
 
 Machine Learning can be used as a general term covering more specific Deep Learning algorithms, but is increasingly used to describe more traditional methods like SVM, kNN, and other low dimensional learning methods.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/blog/svm.webp" title="SVM Margin" caption="Linear support vector decision boundary." alt="SVM illustration" link="https://medium.com/codex/ai-concepts-for-developers-76b5a1a29fed" target="_blank" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/blog/svm.webp" title="Figure 2. SVM Margin" caption="Linear support vector decision boundary." alt="SVM illustration" link="https://medium.com/codex/ai-concepts-for-developers-76b5a1a29fed" target="_blank" %}
 
 ### What are _features_
 
