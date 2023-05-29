@@ -1,6 +1,6 @@
 ---
 title: "Terms and Conditions"
-date: 2021-24-01
+date: 2023-05-19
 layout: basic-2
 permalink: "/terms-and-conditions/"
 ---
@@ -19,7 +19,7 @@ For the purposes of these Terms and Conditions:
 
 - **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
 
-- **Country** refers to: California, United States
+- **Country** refers to: Sydeny, Australia
 
 - **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Example Site.
 
@@ -117,4 +117,4 @@ By continuing to access or use Our Service after those revisions become effectiv
 
 If you have any questions about these Terms and Conditions, You can contact us:
 
-- By email: example@example.com
+- By email: robnewport@gmail.com
