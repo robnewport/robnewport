@@ -28,7 +28,7 @@ Sydney Boy's High School, Australia.
 
 ## Papers of note
 
-__Newport RA, Liu S, Ieva AD.__ _Integrating eye gaze into machine learning using fractal curves._  
+__Newport RA, Liu S, Di Ieva A.__ _Integrating eye gaze into machine learning using fractal curves._  
 In: NeuRIPS 2022 Workshop on Gaze Meets ML. ; 2022.  
 [https://openreview.net/forum?id=-tFBD0sLQJL](https://openreview.net/forum?id=-tFBD0sLQJL)
 
