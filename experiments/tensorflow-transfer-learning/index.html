@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RobNewport - Tensorflow JS</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>  
+  <body>
+    Please wait for MobileNet to load. It may take up to a minute to load.
+    <p id="status">Awaiting TF.js load</p>
+    <button id="enableCam">Enable Webcam</button>
+
+    <video id="webcam" autoplay muted></video>
+    <button class="dataCollector" data-1hot="0" data-name="Class 1">Tag Label 1</button>
+    <button class="dataCollector" data-1hot="1" data-name="Class 2">Tag Label 2</button>
+    <button id="train">Train</button>
+    <button id="reset">Reset</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.11.0/dist/tf.min.js" type="text/javascript"></script>
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
