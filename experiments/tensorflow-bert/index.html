@@ -1,0 +1,50 @@
+<!-- Make sure your page supports utf-8 characterset. -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Load TensorFlow.js. This is required to use the qna model. -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+<!-- Load the qna model. -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/qna"> </script>
+
+<div id="message">Please wait, BERT model is initialising and may take over a couple minutes.</div><br/><br/>
+
+<!-- Place your code in the script tag below. You can also use an external .js file -->
+
+<form action="" id="bertForm">
+    <textarea id="passage" rows="4" cols="50">Founded in 1964, Macquarie University was a pioneer in many fields, including our open admissions procedures, student choice, semester and grading systems, small group teaching and academic self-appraisal. Choosing the name for Sydney's third metropolitan university came down to two different schools of thought: those who wanted to commemorate a great Australian figure in education and those who preferred a geographical name.      In 1964, the NSW State Cabinet chose in favour of naming the University after a prominent Australian. In the end, Governor Lachlan Macquarie was chosen ahead of suggestions which included WC Wentworth and Sir Henry Parkes. Learn more about Lachlan Macquarie's influence on Australia, and his life and background. Visit Macquarie University's Lachlan and Elizabeth Macquarie Archive, which provides transcripts, artefacts, images and historical details of the lives of the Macquaries between 1761 and 1835. The arms of the University shall be on a field vert, the Macquarie lighthouse tower, masoned proper, in chief the star Sirius, or Motto: And gladly teche.</textarea><br/><br/>
+    Question: <input id="question" type="text"><br/><br/>
+    <button type="submit">Submit</button>
+</form>
+
+<div id="output"></div><br/><br/>
+
+<script>
+    let bertForm = document.getElementById("bertForm");
+    let output = document.getElementById("output")
+    let message = document.getElementById("message")
+
+    bertForm.hidden = true;
+    const start = Date.now();
+
+    const enableUi = (model)=> {
+        // enable the UI and use the model here
+        const end = Date.now();
+        const seconds = (end - start) / 1000;
+        message.innerText = "BERT model Loaded in " + seconds + " seconds."
+        bertForm.hidden = false;
+
+        bertForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            var question = document.getElementById("question").value
+            var passage = document.getElementById("passage").value
+            model.findAnswers(question, passage).then(answers => {
+                var out = answers.map(function(item) {
+                    return "<b>" + item['text'] + "</b> (" + item['score'] + ")";
+                });
+                output.innerHTML = out.join("<br>")
+                console.log('Answers: ', answers);
+            });
+        })
+    }
+
+    qna.load().then(enableUi)
+</script>
