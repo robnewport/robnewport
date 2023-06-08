@@ -1,0 +1,26 @@
+<html>
+
+<script src='https://cdn.jsdelivr.net/npm/tesseract.js@4/dist/tesseract.min.js'></script>
+
+<div id="textOutput"></div>
+
+<div style="width: 500px; height: 500px;">
+    <img id="textImage" src="text.jpg" width="50%" height="50%">
+</div>
+
+
+
+<script>
+let textImage = document.getElementById("textImage");
+let textOutput = document.getElementById("textOutput");
+
+Tesseract.recognize(textImage,'eng', { 
+    logger: m => console.log(m) 
+}).then(({ 
+    data: { text } 
+}) => {
+    textOutput.innerText = text;
+    console.log(text);
+})
+</script>
+</html>
