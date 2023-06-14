@@ -1,14 +1,21 @@
-<html>
 
-<!-- Uses Coco-ssd model: https://www.jsdelivr.com/package/npm/@tensorflow-models/coco-ssd -->
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"> </script>
-<link rel="stylesheet" href="style.css">
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script> -->
+<script src="tf.min.js"></script>
 
-<!-- source model -->
-<img id="img" src="jaycar.jpg" />
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"> </script> -->
+<script src="tensorflow-controller.js"> </script>
 
-<!-- helper util js -->
-<script src="index.js"></script>
+<!-- Replace this with your image. Make sure CORS settings allow reading the image! -->
+<img id="img" src="jaycar.jpg"/>
 
-</html>
+<!-- Place your code in the script tag below. You can also use an external .js file -->
+<script>
+  const img = document.getElementById('img');
+
+  cocoSsd.load().then(model => {
+    // detect objects in the image.
+    model.detect(img).then(predictions => {
+      console.log('Predictions: ', predictions);
+    });
+  });
+</script>
