@@ -3,7 +3,13 @@ jade_hutchinson:
   name: "Jade Hutchinson"
   job: "Scientist and Researcher"
   image: "assets/images/team/jade-hutchinson.png"
-  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  bio: "Researcher at Macquarie University, Australia."
+james_reilly:
+  title: "CEO Latent Knowledge"
+  name: "James Reilly"
+  job: "Founder and Researcher"
+  image: "assets/images/team/james-reilly.jpg"
+  bio: "Founder and CEO of Latent Knowledge."  
 rob_newport:
   title: "Rob Newport"
   name: "Rob Newport"

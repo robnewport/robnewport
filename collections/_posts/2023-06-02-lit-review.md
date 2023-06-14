@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Measuring relevance"
-date: 2023-05-25T05:22:42Z
+date: 2023-06-14T05:22:42Z
 authors: ["Rob Newport","James Reilly"]
-categories: ["Science writing"]
+categories: ["Science writing","Research","Academia"]
 description: "Measuring relevance in literature review materials."
 thumbnail: "/assets/images/gen/blog/library.webp"
 image: "/assets/images/gen/blog/library.webp"
