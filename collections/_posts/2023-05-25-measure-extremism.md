@@ -2,7 +2,7 @@
 layout: post
 title: "Measuring Extremism"
 date: 2023-05-25T05:22:42Z
-authors: ["Rob Newport", "Jade Hutchinson"]
+authors: ["Jade Hutchinson","Rob Newport"]
 categories: ["Defense", "Machine Learning"]
 description: "Measuring extremism for detection with Machine Learning."
 thumbnail: "/assets/images/gen/blog/extreme.webp"

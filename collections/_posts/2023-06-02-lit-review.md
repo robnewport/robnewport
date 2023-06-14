@@ -2,7 +2,7 @@
 layout: post
 title: "Measuring relevance"
 date: 2023-06-14T05:22:42Z
-authors: ["Rob Newport","James Reilly"]
+authors: ["James Reilly","Rob Newport"]
 categories: ["Science writing","Research","Academia"]
 description: "Measuring relevance in literature review materials."
 thumbnail: "/assets/images/gen/blog/library.webp"
